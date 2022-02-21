@@ -1,0 +1,84 @@
+/*Estilos Generales*/
+body {
+  /*background-image: url(../src/Img/body.jpg);*/
+  /*background-color: #da790b70;*/
+  background-color: #da790b52;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: "DM Serif Text", serif;
+}
+h2 {
+  color: rgb(241, 241, 239);
+  text-shadow: 0px 0px 1px #201303e5;
+}
+.Tprincipal {
+  color: rgba(255, 145, 0, 0.897);
+}
+/*Estilos de Listas*/
+.Lista {
+  background-color: #fff;
+  width: 1050px;
+  height: 660px;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*estilo de la fila de las columnas*/
+.Listacol {
+  width: 1000px;
+  height: 600px;
+  margin: 20px auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.Listacol::-webkit-scrollbar {
+  width: 7px;
+  background: rgba(0, 0, 0, 0.027);
+}
+.Listacol::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 145, 0);
+  border-radius: 5px;
+  height: 3px;
+}
+/*icono*/
+.icono {
+  font-size: 3rem;
+}
+/*div contenedor del icono*/
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 145, 0, 0.534);
+  border: 2px solid rgba(238, 183, 4, 0.397);
+}
+/*Fondo lista de productos*/
+.colum1 {
+  background-blend-mode: soft-light;
+  background-image: url(../src/Img/2.jpg);
+  background-color: rgba(228, 160, 13, 0.356);
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.Produc {
+  background-color: rgba(241, 235, 235, 0.582);
+  margin-top: 5px;
+}
+
+.BotonAgregar {
+  background-color: rgba(255, 145, 0, 0.897);
+  border-color: rgba(255, 145, 0, 0.897);
+}
+
+.BotonAgregar:hover {
+  background-color: rgba(255, 145, 0, 0.575);
+  border-color: rgba(255, 145, 0, 0.575);
+  height: 50px;
+}
